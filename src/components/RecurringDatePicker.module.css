@@ -1,0 +1,46 @@
+.container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 480px; 
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e2e8f0; /* A light line */
+  margin: 24px 0;
+}
+
+.optionsContainer {
+  padding-top: 12px;
+}
+
+.dateRangeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dateLabel {
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.dateInput {
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}

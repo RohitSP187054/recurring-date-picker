@@ -1,0 +1,29 @@
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #334155;
+}
+
+.daySelector {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dayButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #e2e8f0;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  color: #475569;
+  transition: all 0.2s ease-in-out;
+}
+
+.dayButton.active {
+  background-color: #0f172a; 
+  color: white;
+  border-color: #0f172a;
+}

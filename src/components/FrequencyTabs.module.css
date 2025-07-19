@@ -1,0 +1,29 @@
+.tabGroup {
+  display: flex;
+  background-color: #f1f5f9; 
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 24px;
+}
+
+.tab {
+  flex-grow: 1; 
+  padding: 8px 12px;
+  border: none;
+  background-color: transparent;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #475569; 
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.tab:hover {
+  background-color: #e2e8f0;
+}
+
+.tab.active {
+  background-color: white;
+  color: #0f172a; 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,7 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  min-height: 100vh;
+  padding-top: 5rem;
+}
